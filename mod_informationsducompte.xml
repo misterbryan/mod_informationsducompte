@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<extension type="module" version="3.1.0" client="site" method="upgrade">
+    <name>Informations du compte</name>
+    <author>Briand IDOSSOU</author>
+    <creationDate>Janvier 2015</creationDate>
+    <authorEmail>idossoubriand@gmail.com</authorEmail>
+    <authorUrl>http://idossoubriand.com</authorUrl>
+    <version>1.0.0</version>
+    <description>
+        Un module permettant d'avoir les informations basiques sur un utilisateur. Ces informations sont :
+        le nom d'utilisateur, le nom, la date d'inscription, la date de dernière connexion, le groupes etc. 
+    </description>
+    <files>
+        <filename>mod_informationsducompte.xml</filename>
+        <filename module="mod_informationsducompte">mod_informationsducompte.php</filename>
+        <filename>index.html</filename>
+        <filename>helper.php</filename>
+        <filename>tmpl/default.php</filename>
+        <filename>tmpl/index.html</filename>
+    </files>
+    <config>
+    </config>
+</extension>
